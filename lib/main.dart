@@ -68,7 +68,7 @@ class _MyHomePageState extends State<MyHomePage> {
             TextButton(
               onPressed: () {
                 Navigator.push(context, MaterialPageRoute(
-                  builder: (BuildContext context) => Day1()));
+                    builder: (BuildContext context) => Day1()));
               },
               child: Text('day1'),
             ),
